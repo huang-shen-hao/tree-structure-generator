@@ -1,0 +1,10 @@
+├── .gitignore
+├── bin
+│   └── tree-gen.js
+├── config.js
+├── package-lock.json
+├── package.json
+├── README.md
+└── src
+    ├── index.js
+    └── treeGenerator.js

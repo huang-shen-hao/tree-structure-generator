@@ -4,13 +4,17 @@
   "description": "帮助开发者快速生成指定文件的树状目录结构",
   "main": "src/index.js",
   "bin": {
-    "tree-gen": "bin/tree-gen.js"
+    "tree-gen": "./bin/tree-gen.js"
   },
   "type": "module",
   "scripts": {
-    "start": "node bin/tree-gen.js"
+    "start": "node ./bin/tree-gen.js"
   },
   "author": "huangshenhao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huang-shen-hao/tree-structure-generator"
+  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.3.0",
