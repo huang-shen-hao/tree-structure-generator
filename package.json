@@ -1,6 +1,6 @@
 {
   "name": "treestructuregeneration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "帮助开发者快速生成指定文件的树状目录结构",
   "main": "src/index.js",
   "bin": {
