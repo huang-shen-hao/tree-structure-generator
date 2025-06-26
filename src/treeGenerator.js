@@ -2,11 +2,8 @@ import fs from "fs";
 import path from "path";
 
 export function generateTree(dir, opts, prefix = "") {
-  // Validate depth boundary
-  if (opts.depth < 0) {
-    throw new Error("Depth must be a non-negative integer");
-  }
-
+  // If depth below 0, stop recursion without error
+  if (opts.depth < 0) return "";
   let result = "";
   const entries = fs
     .readdirSync(dir, { withFileTypes: true })
