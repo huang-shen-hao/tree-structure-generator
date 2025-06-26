@@ -15,6 +15,18 @@
     "type": "git",
     "url": "https://github.com/huang-shen-hao/tree-structure-generator"
   },
+  "keywords": [
+    "tree",
+    "directory",
+    "structure",
+    "generator",
+    "cli",
+    "文件夹",
+    "目录树",
+    "工具",
+    "nodejs",
+    "可视化"
+  ],
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.3.0",
